@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>PS4 Home</title>
+      <!-- Include Bootstrap -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/bootstrap-theme.css" rel="stylesheet">
+      <!-- Include Site Specific Styles -->
+      <link href="css/site.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Fixed navbar -->
+      <div class="container">
+      <div class="header clearfix">
+         <nav>
+            <ul class="nav nav-pills pull-right">
+               <li role="presentation"><a href="MainPage.php">Home</a></li>
+               <li role="presentation"><a href="GamesPage.php">Game</a></li>
+               <li role="presentation"><a href="ConsolePage.php">Console</a></li>
+               <li role="presentation"><a href="MyWebsite.php">Recommendation</a></li>
+               <li role="presentation"><a href="LogIn.php">Log-In</a></li>
+            </ul>
+         </nav>
+         <h3 class="text-muted">PS4 Revs</h3>
+      </div>
+      <div class="jumbotron">
+         <h1>Home of the PS4</h1>
+         <p class="lead">Welcome to the website you need to find out ever detail about the PS4, games and accesories.</p>
+      </div>
+      <div class="col-sm-4">
+         <article class="col-lg-12">
+         <div class="list-group">
+            <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading"><img class="img-thumbnail" alt="exclusive" style="width: 350px; height: 170px;" src="img/exclusives.jpg" data-holder-rendered="true"></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <h4 class="list-group-item-heading"><b>Games</b></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <p class="list-group-item-text">Whether you want to swing through the city, ride into battle or save the day -
+                  with the latest PS4 games available to buy now and the most exciting upcoming PS4 games,
+                  your next big adventure is never too far away.
+               </p>
+            </a>
+            <a class="btn btn-info" href="GamesPage.php">More Games</a>
+         </div>
+      </div>
+      <div class="col-sm-4">
+         <article class="col-lg-12">
+         <div class="list-group">
+            <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading"><img class="img-thumbnail" alt="exclusive" style="width: 350px; height: 170px;" src="img/playstation4.jpg" data-holder-rendered="true"></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <h4 class="list-group-item-heading"><b>Consoles</b></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <p class="list-group-item-text">PlayStation 4 redefines rich and immersive gameplay with powerful graphics and speed, intelligent personalisation, deeply integrated social capabilities, and innovative second-screen features</p>
+            </a>
+            <a class="btn btn-info" href="ConsolePage.php">More Info</a>
+         </div>
+      </div>
+      <div class="col-sm-4">
+         <article class="col-lg-12">
+         <div class="list-group">
+            <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading"><img class="img-thumbnail" alt="exclusive" style="width: 350px; height: 170px;" src="img/psplus.png" data-holder-rendered="true"></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <h4 class="list-group-item-heading"><b>Playstaion Plus</b></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <p class="list-group-item-text">Forge allegiances, settle scores and play with friends and rivals online in your favourite games' online multiplayer modes -
+                  exclusively on your PlayStation device with Playstation Plus.
+               </p>
+            </a>
+            <a class="btn btn-info" href="https://www.playstation.com/en-gb/explore/playstation-plus/join-ps-plus/">More Info</a>
+         </div>
+      </div>
+      <div class="col-sm-4">
+         <article class="col-lg-12">
+         <div class="list-group">
+            <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading"><img class="img-thumbnail" alt="exclusive" style="width: 350px; height: 170px;" src="img/ps4controller.jpg" data-holder-rendered="true"></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <h4 class="list-group-item-heading"><b>Controllers</b></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <p class="list-group-item-text">The DUALSHOCK 4 wireless controller has been updated with a new look and feel, including a  light bar to put even more of the game into your hands. It’s the most ergonomic, controller we’ve ever designed.</p>
+            <a class="btn btn-info" href="ConsolePage.php">More Info</a>
+         </div>
+      </div>
+      <div class="col-sm-4">
+         <article class="col-lg-12">
+         <div class="list-group">
+            <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading"><img class="img-thumbnail" alt="exclusive" style="width: 350px; height: 170px;" src="img/ps4access.jpg" data-holder-rendered="true"></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <h4 class="list-group-item-heading"><b>Accessories</b></h4>
+            </a>
+            <a href="#" class="list-group-item">
+               <p class="list-group-item-text">Enhance your PS4 with incredible audio, pro level controllers and official accessories.
+                  Experience the best gaming audio with the Gold Wireless Headset or get eSport type gaming with our pro gaming controllers
+               </p>
+            </a>
+            <a class="btn btn-info" href="ConsolePage.php">More Info</a>
+         </div>
+      </div>
+      <style>
+         table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+         th, td {
+         padding: 10px;
+         }
+      </style>
+      <table style="width:30%">
+         <tr>
+            <th></th>
+            <th>Latest Playstation Articles</th>
+         </tr>
+         <tr>
+            <td>1.</td>
+            <td>PSN Game Of The Month</td>
+         </tr>
+         <tr>
+            <td>2.</td>
+            <td>Last Of Us 2 Leak</td>
+         </tr>
+         <tr>
+            <td>3.</td>
+            <td>Specs for the PS5</td>
+         </tr>
+         <tr>
+            <td>4.</td>
+            <td>Next gen is soon coming soon!</td>
+         </tr>
+         <tr>
+            <td>5.</td>
+            <td>New Sony VR Controller</td>
+         </tr>
+         <tr>
+            <td>6.</td>
+            <td>PS5 V XBOX Series X</td>
+         </tr>
+         <tr>
+            <td>7.</td>
+            <td>How the Coronavirus Pandemic Has Affected Game Developers</td>
+         </tr>
+         <tr>
+            <td>8.</td>
+            <td>Top Games Of 2019</td>
+         </tr>
+      </table>
+      <img class="img-thumbnail" alt="exclusive" style="width: 1280px; height: 720px;" src="img/timetoplay.jpg" data-holder-rendered="true">
+      <a class="btn btn-info" href="https://www.youtube.com/watch?v=_--zg6Ycnvs">It's Time To Play</a>
+      <div class="page-header">
+      </div>
+      <footer>© Frank Eyaife-Eyaifa - LJMU
+      </footer>
+</html>
