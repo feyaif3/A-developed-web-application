@@ -17,11 +17,11 @@
          <div class="header clearfix">
             <nav>
                <ul class="nav nav-pills pull-right">
-                  <li role="presentation"><a href="MainPage.php">Home</a></li>
-                  <li role="presentation"><a href="GamesPage.php">Game</a></li>
-                  <li role="presentation"><a href="ConsolePage.php">Console</a></li>
-                  <li role="presentation"><a href="MyWebsite.php">Recommendation</a></li>
-                  <li role="presentation"><a href="LogIn.php">Log-In</a></li>
+                  <li role="presentation"><a href="MainPage.html">Home</a></li>
+                  <li role="presentation"><a href="GamesPage.html">Game</a></li>
+                  <li role="presentation"><a href="ConsolePage.html">Console</a></li>
+                  <li role="presentation"><a href="MyWebsite.html">Recommendation</a></li>
+                  <li role="presentation"><a href="LogIn.html">Log-In</a></li>
                </ul>
             </nav>
          </div>
@@ -49,7 +49,6 @@
             border-radius: 4px;
             cursor: pointer;
             float: right;
-            }
             }
             .container {
             border-radius: 5px;
@@ -127,34 +126,3 @@
       </head>
    </body>
 </html>
-
-
-
-<?php
-// ----INCLUDE APIS------------------------------------
-// Include our Website API
-include ("api/api.inc.php");
-
-// ----PAGE GENERATION LOGIC---------------------------
-function createPage()
-{
-    $tcontent = <<<PAGE
-
-
-PAGE;
-    return $tcontent;
-}
-
-// ----BUSINESS LOGIC---------------------------------
-$tpagecontent = createPage();
-$taction = htmlspecialchars($_SERVER['PHP_SELF']);
-$tmethod = "POST";
-$tpagecontent = createPage();
-
-// ----BUILD OUR HTML PAGE----------------------------
-// Create an instance of our Page class
-$tindexpage = new MasterPage("Home Page");
-$tindexpage->setDynamic2($tpagecontent);
-$tindexpage->renderPage();
-
-?>
